@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Banque Nouvelle — Sans contact mobile</title>
+  <meta name="description" content="Prototype — Banque axée sur les alternatives au paiement mobile : cartes physiques, tokens, QR fixes et sécurité renforcée." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">Banque<span class="accent"> Nouvelle</span></h1>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#security">Sécurité</a>
+        <a href="#about">À propos</a>
+        <a href="#contact" class="cta">Ouvrir un compte</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Une banque moderne — sans dépendre du mobile</h2>
+          <p>
+            Nous proposons des solutions bancaires sécurisées sans nécessiter l'utilisation d'un smartphone :
+            cartes à puce, tokens matériels et paiements web tokenisés.
+          </p>
+          <p class="lead-cta"><a href="#contact" class="btn-primary">Demander l'accès au prototype</a></p>
+        </div>
+        <div class="hero-card">
+          <div class="card-mock">
+            <div class="chip"></div>
+            <div class="card-number">•••• •••• •••• 1234</div>
+            <div class="card-name">M. CLIENT</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container">
+        <h3>Nos services</h3>
+        <div class="grid">
+          <article>
+            <h4>Comptes courants</h4>
+            <p>Comptes personnels et professionnels avec options d'accès sans application mobile.</p>
+          </article>
+          <article>
+            <h4>Cartes physiques</h4>
+            <p>Cartes EMV & contactless (physique) pour paiements en magasin — pas d'application requise.</p>
+          </article>
+          <article>
+            <h4>Tokens matériels</h4>
+            <p>Authentification forte via clé OTP physique ou smartcard.</p>
+          </article>
+          <article>
+            <h4>Paiement web sécurisé</h4>
+            <p>Paiements en ligne via tokenisation & 3-D Secure sans passer par smartphone.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="security" class="section security">
+      <div class="container">
+        <h3>Sécurité & conformité (prototype)</h3>
+        <ul>
+          <li>Chiffrement TLS obligatoire</li>
+          <li>Authentification multifacteur (MFA) privilégiant les tokens matériels</li>
+          <li>Vérification d'identité (KYC) pour ouverture de compte — démonstration seulement</li>
+          <li>Audits et PCI-DSS requis en production</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h3>À propos</h3>
+        <p>Banque Nouvelle est un prototype visant à explorer des services bancaires accessibles aux personnes qui ne souhaitent pas utiliser un smartphone pour leurs opérations bancaires.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h3>Demande d'ouverture (prototype)</h3>
+        <form id="contactForm" class="form">
+          <label>Nom complet
+            <input type="text" name="name" required />
+          </label>
+          <label>Email
+            <input type="email" name="email" required />
+          </label>
+          <label>Type de service souhaité
+            <select name="service">
+              <option>Compte personnel</option>
+              <option>Compte professionnel</option>
+              <option>Token matériel</option>
+            </select>
+          </label>
+          <p class="note">Remarque : formulaire prototype — ne collecte pas de données sensibles.</p>
+          <button type="submit" class="btn-primary">Envoyer la demande</button>
+        </form>
+        <div id="formMessage" aria-live="polite" class="form-message" hidden></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Prototype — Banque Nouvelle © <span id="year"></span> — Ce site n'est pas une institution bancaire.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
