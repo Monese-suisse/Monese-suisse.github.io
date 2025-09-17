@@ -11,7 +11,7 @@
       font-family: 'Poppins', sans-serif;
       margin: 0;
       padding: 0;
-      background: url("background.jpg") no-repeat center top; /*background0.jpg*/
+      background: url("background.jpg") no-repeat center top; /*IMG_8041.jpg*/
       background-size: cover;
       color: #333;
     }
@@ -97,7 +97,7 @@
   <!-- En-tête avec logo -->
   <header>
     <div class="logo">
-      <img src="mon-logo.png" alt="MONESE">
+      <img src="mon-logo.png" alt="IMG_8053.jpg">
     </div>
     <h1>Instant payment transfers</h1>
   </header>
