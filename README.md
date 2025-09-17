@@ -97,7 +97,7 @@
   <!-- En-tête avec logo -->
   <header>
     <div class="logo">
-      <img src="mon-logo.png" alt="IMG_8053.jpg">
+      <img src="mon-logo.png" alt="https://private-user-images.githubusercontent.com/232686686/490359134-9a910b30-6fd5-45fd-bfa8-996100c44b9d.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTgwODUzNzEsIm5iZiI6MTc1ODA4NTA3MSwicGF0aCI6Ii8yMzI2ODY2ODYvNDkwMzU5MTM0LTlhOTEwYjMwLTZmZDUtNDVmZC1iZmE4LTk5NjEwMGM0NGI5ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkxN1QwNDU3NTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04YzY0MTgwNzc1MWI0ZDY0ZGY2MzNkY2UxNzI5NGU1NzY2MmU1ZjE5MmJmNmZhZTZiOTdiYTkwZGQ2NDU0MDA5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.gJOI6x7N_pEjAI4rPdaoAjeGieOXszSs1Z00n5vN8Wo">
     </div>
     <h1>Instant payment transfers</h1>
   </header>
